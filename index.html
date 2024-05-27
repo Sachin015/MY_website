@@ -6,91 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/faff85eac9.js" crossorigin="anonymous"></script>
-    <title>my try</title>
+    <title>Sachin's Portfolio</title>
 </head>
 
 <body>
-    <div class="navigation">
-        <div class="dropdown">
-            <h1><i class="fa-solid fa-bars"></i></h1>
-            <li><a href="$">Home</a></li>
-            <li><a href="$">Blogs</a></li>
-            <li><a href="$">Contact</a></li>
-            <li><a href="$">About us</a></li>
-        </div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About us</a></li>
+  
+    <nav>
+        <span id="openbtn" onclick="show()">&#9776;</span>
+        <ul class="sidebar">
+            <span id="openbtn" onclick="hide()">&#10006;</span>
+            <li><a href="#head">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">My Portfolio</a></li>
+            <li><a href="#foot">Contact Me</a></li>
         </ul>
+        <ul class="navigation">
+            <li><a href="#head">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">My Portfolio</a></li>
+            <li><a href="#foot">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div id="head"> <p>Welcome to My Website</p> <br><h2>Hi I'm <br><span>SACHIN MALI</span>  </h2> <br>
+        <div class="buttons"> <button><a href="https://github.com/Sachin015/My_CV.git" Download>Download C.V</a></button>  <button><a href="malisachin015@gmail.com">Hire Me</a></button></div>
     </div>
-    <div class="container">
-        <div id="head"> Let's <span>CODE</span>  <br>Together <br>#Devlopers </div>
         <div class="front">
             <h1><span>Front-end Devloper</span></h1>
-            <img src="./images/computer-man.png" width="700px" height="700px">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque similique quibusdam, impedit adipisci
-                repudiandae molestias dolorum iste at aliquam et totam, commodi maiores, minima ex odit nesciunt dolor
-                eligendi vero id? Natus eius ex mollitia dicta culpa. Repellat animi provident tempore. Amet natus eum
-                corporis voluptatum nam, aliquam autem exercitationem!</p>
+            <img src="./images/computer-man.png" width="650px" height="650px">
         </div>
-        <div class="mid">
-            <div id="data-science">
-                <img src="./images/laptop-man.png" height="200px" width="200px">
-                <h2>Data Science</h2>
-            </div>
-            <div id="cyber-security">
-                <img src="./images/security-man.png" height="200px" width="200px">
-                <h2>Cyber Security</h2>
-            </div>
-            <div id="digital-marketing">
-                <img src="./images/Digital-marketing.png" height="200px" width="200px">
-                <h2>Digital Marketing</h2>
-            </div>
-            <div id="web-devloper">
-                <img src="./images/web-devloper.png" height="200px" width="200px">
-                <h2>Web Devloper</h2>
-            </div>
-            <div id="graphics-design">
-                <img src="./images/graphics-design.png" height="200px" width="200px">
-                <h2>Graphics Design</h2>
-            </div>
-        </div>
-        <div class="end">
-            <div id="one">
-                <h1>Data Analysis</h1>
-                <img src="./images-1/data-ana.jpg" width="670px" height="500px">
-            </div>
-            <div id="two">
-                <h1>Cyber Security</h1>
-                <img src="./images-1/cybersec.jpg" width="670px" height="500px">
-            </div>
-            <div id="three">
-                <h1>Web Design</h1>
-                <img src="./images-1/web-des.jpg" width="670px" height="500px">
-            </div>
-            <div id="four">
-                <h1>UI UX</h1>
-                <img src="./images-1/ui-ux.jpg" width="670px" height="500px">
-            </div>
+    </section>
 
+    <section class="about-me" id="about">
+        <div class="image"><img src="./about/sachin.jpg" alt="" width="500px" height="550px"></div>
+        <div class="content"> 
+            <h3>Hi, I'm Sachin Mali</h3><br>
+            <p>A dedicated Front-End Web Devloper</p><br>
+            <p>I ma a 20 year guy having keen on Computer Science And IT(information Technology).I'm eager to be a self-taught learner or Developer.Currently I'm studying B.C.A(Bachelor in Computer Application) affilate to T.U(Tribhuvan University) from Aims Int college</p>
 
         </div>
+    </section>
+
+    <section class="mid" id="portfolio">
+        <div id="data-science">
+            <img src="./images/laptop-man.png" height="300px" width="300px">
+            <h2>Data Science</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi iusto neque laboriosam veritatis consequatur harum ipsa velit mollitia. Soluta.</p>
+        </div>
+        <div id="cyber-security">
+            <img src="./images/security-man.png" height="300px" width="300px">
+            <h2>Cyber Security</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi iusto neque laboriosam veritatis consequatur harum ipsa velit mollitia. Soluta.</p>
+        </div>
+        <div id="web-devloper">
+            <img src="./images/web-devloper.png" height="300px" width="300px">
+            <h2>Web Devlopment</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi iusto neque laboriosam veritatis consequatur harum ipsa velit mollitia. Soluta.</p>
+        </div>
+        <div id="graphics-design">
+            <img src="./images/graphics-design.png" height="300px" width="300px">
+            <h2>Graphics Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi iusto neque laboriosam veritatis consequatur harum ipsa velit mollitia. Soluta.</p>
+        </div>
+    </section>
+
+<section class="end">
+    <div id="one">
+        <h1>Data Analysis</h1><br><br>
+        <img src="./images-1/data-ana.jpg" width="570px" height="400px">
+    </div> 
+    <div id="two">
+        <h1>Cyber Security</h1><br><br>
+        <img src="./images-1/cybersec.jpg" width="570px" height="400px">
     </div>
-    <div class="footer">
+    <div id="three">
+        <h1>Web Design</h1><br><br>
+        <img src="./images-1/web-des.jpg" width="570px" height="400px">
+    </div>
+    <div id="four">
+        <h1>UI UX</h1> <br><br>
+        <img src="./images-1/ui-ux.jpg" width="570px" height="400px">
+    </section>
+
+
+    <footer class="footer" id="foot">
         <div class="first-foot">
             <h1> Web Devloper</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aspernatur quae animi ullam alias natus commodi veniam, aperiam incidunt, repudiandae corporis eligendi molestias ut corrupti fuga. Sed et temporibus ad non consequatur delectus incidunt, id expedita, aut nam nemo laboriosam atque adipisci aliquam! Possimus incidunt vitae sit modi eius unde.</p>
         </div>
         <div class="social-media">
-           <h1> Connect With Us</h1>
+           <h1> Connect With Me</h1>
             <div id="social-icons">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61550653363830"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/sachin015"><i class="fa-brands fa-github"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="www.linkedin.com/in/
+            sachin-mali-a87855266
+            "><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
         <div id="copyright">
@@ -99,7 +113,23 @@
             <marquee behavior="" direction="left"> &copy; copyright 2023 , SACHIN MALI</marquee>
         </p>
         </div>
-    </div>
+    </footerss>
+
+    <script>
+       
+        const bar = document.getElementById("openbtn");
+    
+        function show(){
+            let side = document.querySelector(".sidebar");
+            side.style.transform="translateX(0)"
+            bar.style.display="none"
+        }
+        function hide(){
+            let side = document.querySelector(".sidebar");
+            side.style.transform="translateX(-300px)"
+            bar.style.display="block"
+        }
+    </script>
 </body>
 
 </html>
